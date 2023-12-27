@@ -9,12 +9,12 @@ cd your-repository`
 `pip install -r requirements.txt`
 ### 3. Configure Crontab:
 Edit your crontab file using the crontab -e command and add the following line to run the script at your desired frequency. For example, to run the script every hour:
-`0 * * * * /path/to/python3 /path/to/your-repository/availability_checker.py`
+`0 * * * * /path/to/python3 /path/to/your-repository/Keychron.py`
 
 Make sure to replace /path/to/python3 and /path/to/your-repository with the actual paths on your system.
 
 ### 4. Configure Script:
-Open availability_checker.py and modify the function call:
+Open Keychron.py and modify the function call:
 
 url1_request: URL to check the product availability.
 url1_buy: URL to purchase the product (include the variant parameter).
@@ -23,7 +23,7 @@ discord_webhook_url: Discord webhook URL to receive notifications.
 ### 5. Run the Script Manually:
 You can also run the script manually to check the availability without waiting for the cron job.
 
-`python availability_checker.py
+`python Keychron.py
 `
 
 ## Script Details
