@@ -16,10 +16,10 @@ Make sure to replace /path/to/python3 and /path/to/your-repository with the actu
 ### 4. Configure Script:
 Open Keychron.py and modify the function call:
 
-url1_request: URL to check the product availability.
-url1_buy: URL to purchase the product (include the variant parameter).
-url1_variant: Variant ID of the product.
-discord_webhook_url: Discord webhook URL to receive notifications.
+- url1_request: URL to check the product availability.
+- url1_buy: URL to purchase the product (include the variant parameter).
+- url1_variant: Variant ID of the product.
+- discord_webhook_url: Discord webhook URL to receive notifications.
 ### 5. Run the Script Manually:
 You can also run the script manually to check the availability without waiting for the cron job.
 
