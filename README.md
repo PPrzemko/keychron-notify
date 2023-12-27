@@ -3,7 +3,7 @@ This script checks the availability of a specific product variant on the Keychro
 
 ## Usage
 ### 1. Clone the Repository:
-`git clone https://github.com/your-username/your-repository.git
+`git clone https://github.com/PPrzemko/keychron-notify.git
 cd your-repository`
 ### 2. Install Dependencies:
 `pip install -r requirements.txt`
